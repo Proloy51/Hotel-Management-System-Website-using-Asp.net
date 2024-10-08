@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    
+   <!-- <img src="images/background_image.jpg" alt="background_image" class="back"> -->
+
+    <header class="header">
+       <a href="#" id="logo"><img src="images/logo2.png" alt="" class="image"></a>
+
+       <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Rooms</a>
+          <a href="about us.html">About</a>
+          <a href="contract us.html">Contact</a>
+
+          <a href="login.html"><input type="button" value="login" class="loginbutton"></a>
+          <a href="signup.html"><input type="button" value="signup" class="signupbutton">
+       </nav>
+
+       <div class="icons">
+         <div class="fas fa-user" id="myuser"></div>
+         <div class="fas fa-search" id="search-bar"></div>
+         <div class="fas fa-bars" id="menu-bars"></div>
+       </div>
+
+    </header>
+
+    <div class="breadcum">
+        <div class="details-room">
+          <div class="main-text">
+              <h2>User Dashboard</h2>
+           </div>
+        </div>
+      </div>
+
+
+      <div class="our-rooms">
+            <div class="user-menu">
+                <ul>
+                    <li><a href="admin-profile.html">Profile</a></li>
+                    <li><a href="admin-add-room.html">Add Rooms</a></li>
+                    <li><a href="admin-rooms.html">Rooms</a></li>
+                    <li><a href="admin-booking.html">Bookings</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </div>
+            <div class="user-content">
+                <h2>Edit Room</h2>
+                <hr>
+                
+                <form id="room-booking" action="/action_page.php">
+                    <label>Room Name:</label>
+                    <input type="text" value="Single Dulex room">
+                    <label>Room Image:</label>
+                    <input type="file">
+                    <label>Room Price/Night:</label>
+                    <input type="number" value="200">
+                    <label>Room Type:</label>
+                    <select name="" id="">
+                        <option value="">Single</option>
+                        <option value="" selected>Double</option>
+                    </select>
+                    <label>Description:</label>
+                    <textarea style="width: 100%;" name="" id="" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quia ipsam repellendus exercitationem eveniet laboriosam facilis voluptate voluptates dolorem nostrum sit dolorum modi, velit autem eos ratione voluptatem, iusto nam officia ad? Libero dolorem omnis esse tempora cumque tempore. Animi, esse consequatur? Vel nihil fuga porro. Voluptate in minima ipsa unde voluptatum! Enim corporis quas excepturi quo impedit rerum expedita repellat. Recusandae cupiditate, dolor quisquam facere, soluta officiis alias impedit eos omnis enim inventore eveniet, atque assumenda. Corrupti accusamus amet quas placeat eaque earum iste dolor asperiores culpa deleniti quasi laudantium quae, impedit repudiandae soluta enim magni assumenda ea doloribus.</textarea>
+                    <label>Complements:</label>
+                    <textarea style="width: 100%;" name="" id="" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit labore deserunt, perferendis ab tenetur quis ducimus quae quibusdam pariatur ut temporibus quam officiis quaerat iste repellendus nemo aspernatur autem. Quisquam illo magnam dolor ab alias odit maiores nostrum consequatur, repudiandae enim consectetur accusamus sunt architecto sint nobis expedita. Natus, laboriosam.</textarea>
+
+                    <button style="padding-top: 10px;padding-bottom: 10px;margin-top: 15px;display: inline;" type="submit" class="book-roomm book-room-btn">Update</button>
+
+                  </form> 
+
+
+                  
+            </div>
+      </div>
+
+      <div style="clear: both;"></div>
+
+      <div class="footer">
+        <ul class="social-icons">
+
+           <li>
+               <a href="#">
+                  <i class="fab fa-facebook" onclick="window.open('https://www.facebook.com/proloykarmaker')"></i>
+              </a>
+              
+              <a href="#">
+                  <i class="fab fa-twitter"></i>
+              </a>
+
+
+              <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+              </a>
+
+             </li>
+
+       </ul>
+
+       <ul class="info-details">
+        <li>
+            <i class="fas fa-phone-alt"></i>
+            <span>Phone: </span><a href="tel:+123456789">123456789</a>
+        </li>
+
+        <li>
+            <i class="fas fa-paper-plane"></i>
+            <span>E-mail: </span><a href="mailto:hotel@gmail.com">hotel@gmail.com</a>
+        </li>
+
+        <li>
+            <i class="fas fa-globe"></i>
+            <span>Website: </span><a href="https:\\www.hotel5star.com">www.hotel5star.com</a>
+        </li>
+
+    </ul>
+
+     </div>
+
+
+   </div>
+</body>
+</html>

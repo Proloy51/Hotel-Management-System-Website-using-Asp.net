@@ -1,0 +1,95 @@
+:root{
+    --maincolor:#0000ff; 
+   /* --maincolor:yellow; */
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   transition: .3s linear;
+   text-decoration:none ;
+   text-transform: capitalize;
+   outline: none;
+}
+
+
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+
+.our-rooms{
+   padding: 2rem 7%;
+}
+
+.our-rooms h1{
+   color: black;
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   padding-bottom: 2rem;
+}
+
+.our-rooms h1 span{
+   color: var(--maincolor);
+}
+
+.inner-rooms{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 15px;
+}
+
+.inner-rooms .room-box{
+   flex: 1 1 300px;
+}
+
+.inner-rooms .room-box img{
+   width: 100%;
+   padding: 1rem;
+}
+
+.inner-rooms .room-box .beds{
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem 5rem;
+}
+
+.inner-rooms .room-box .beds span{
+   font-size: 1.7rem;
+}
+
+.inner-rooms .room-box .beds i{
+   font-size: 2rem;
+   color: var(--maincolor);
+   cursor: pointer;
+}
+
+
+.book-room-btn{
+   width: 50%;
+   margin: 0 auto;
+   margin-top: 10px;
+   padding: 1.5rem 2rem;
+   border: 1px solid var(--maincolor);
+   text-align: center;
+}
+
+.book-room-btn:hover{
+   color: white;
+   background: var(--maincolor);
+}
+.book-room-btn a{
+   color: black;
+   font-size: 1.7rem;
+}
+
+.book-room-btn a:hover{
+   color: white;
+}
